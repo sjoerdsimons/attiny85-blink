@@ -9,10 +9,6 @@ license = "MIT OR Apache-2.0"
 # A panic handler is needed.  This is a crate with the most basic one.
 panic-halt = "0.2.0"
 embedded-hal = "1.0"
-avr-device = "0.5.4"
-
-[dependencies.avr-hal-generic]
-git = "https://github.com/rahix/avr-hal"
 
 [dependencies.attiny-hal]
 git = "https://github.com/rahix/avr-hal"
